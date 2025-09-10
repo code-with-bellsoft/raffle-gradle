@@ -34,7 +34,7 @@ Run the image:
 ./build/native/nativeCompile/raffle
 ```
 
-The image fails to start with the following exception
+On macOS ARM, the image fails to start with the following exception
 
 ```bash
 ./build/native/nativeCompile/raffle
