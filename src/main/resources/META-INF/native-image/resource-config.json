@@ -55,7 +55,11 @@
   }, {
     "pattern":"javafx.graphics:\\Qcom/sun/scenario/effect/impl/es2/glsl/LinearConvolveShadow_64.frag\\E"
   }, {
+    "pattern":"jdk.internal.vm.compiler:\\Qorg/graalvm/compiler/hotspot/HotSpotBackend.class\\E"
+  }, {
     "pattern":"jdk.internal.vm.compiler:\\Qorg/graalvm/compiler/hotspot/replacements/ClassGetHubNode.class\\E"
+  }, {
+    "pattern":"jdk.internal.vm.compiler:\\Qorg/graalvm/compiler/hotspot/replacements/DigestBaseSnippets.class\\E"
   }, {
     "pattern":"jdk.internal.vm.compiler:\\Qorg/graalvm/compiler/hotspot/replacements/HotSpotAllocationSnippets.class\\E"
   }, {
@@ -131,9 +135,9 @@
   }]},
   "bundles":[{
     "name":"com.sun.javafx.tk.quantum.QuantumMessagesBundle",
-    "locales":[""]
+    "locales":["und"]
   }, {
     "name":"com/sun/javafx/scene/control/skin/resources/controls",
-    "locales":[""]
+    "locales":["und"]
   }]
 }

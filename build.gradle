@@ -38,15 +38,14 @@ graalvmNative {
         named("main") {
             imageName = 'raffle'
             mainClass = 'dev.cyberjar.RaffleApplication'
-            buildArgs.add('-H:ConfigurationFileDirectories=${project.projectDir}/agent-data')
-            buildArgs.add('-H:+UnlockExperimentalVMOptions')
             buildArgs.addAll([
                     "-H:IncludeResources=fxml/.*\\.fxml",
-                    "-H:IncludeResources=css/.*\\.css",
-                    "-H:IncludeResources=images/.*\\.(png|jpg|jpeg|gif)",
-                    "-H:IncludeResources=.*\\.properties"
+                    "-H:IncludeResources=graphics/.*"
             ])
-            resources.autodetect()
         }
     }
+    agent {
+        enabled.set(true)
+    }
+
 }
