@@ -1,0 +1,376 @@
+[
+{
+  "name":"[D"
+},
+{
+  "name":"com.sun.glass.ui.Application"
+},
+{
+  "name":"com.sun.glass.ui.Menu"
+},
+{
+  "name":"com.sun.glass.ui.MenuItem$Callback"
+},
+{
+  "name":"com.sun.glass.ui.Size"
+},
+{
+  "name":"com.sun.glass.ui.View"
+},
+{
+  "name":"com.sun.glass.ui.mac.MacApplication"
+},
+{
+  "name":"com.sun.glass.ui.mac.MacMenuBarDelegate"
+},
+{
+  "name":"com.sun.glass.ui.mac.MacPixels"
+},
+{
+  "name":"com.sun.glass.ui.mac.MacPlatformFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.glass.ui.mac.MacView"
+},
+{
+  "name":"com.sun.javafx.font.coretext.CTFactory",
+  "methods":[{"name":"getFactory","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.javafx.logging.PrintLogger",
+  "methods":[{"name":"createInstance","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.javafx.logging.jfr.JFRPulseLogger",
+  "methods":[{"name":"createInstance","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.javafx.reflect.Trampoline",
+  "methods":[{"name":"invoke","parameterTypes":["java.lang.reflect.Method","java.lang.Object","java.lang.Object[]"] }]
+},
+{
+  "name":"com.sun.javafx.scene.control.skin.Utils",
+  "methods":[{"name":"getResource","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"com.sun.javafx.tk.quantum.QuantumToolkit",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.prism.GraphicsPipeline",
+  "methods":[{"name":"getFontFactory","parameterTypes":[] }, {"name":"getPipeline","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.prism.es2.ES2Pipeline",
+  "methods":[{"name":"getInstance","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.prism.es2.MacGLFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.prism.shader.FillPgram_Color_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.prism.shader.FillPgram_LinearGradient_PAD_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.prism.shader.Solid_TextureRGB_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.prism.shader.Texture_Color_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.prism.shader.Texture_LinearGradient_PAD_Loader",
+  "methods":[{"name":"loadShader","parameterTypes":["com.sun.prism.ps.ShaderFactory","java.io.InputStream"] }]
+},
+{
+  "name":"com.sun.scenario.effect.impl.es2.ES2ShaderSource",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"com.sun.scenario.effect.impl.prism.PrRenderer",
+  "methods":[{"name":"createRenderer","parameterTypes":["com.sun.scenario.effect.FilterContext"] }]
+},
+{
+  "name":"com.sun.scenario.effect.impl.prism.ps.PPSLinearConvolveShadowPeer",
+  "methods":[{"name":"<init>","parameterTypes":["com.sun.scenario.effect.FilterContext","com.sun.scenario.effect.impl.Renderer","java.lang.String"] }]
+},
+{
+  "name":"com.sun.scenario.effect.impl.prism.ps.PPSRenderer",
+  "methods":[{"name":"createRenderer","parameterTypes":["com.sun.scenario.effect.FilterContext"] }]
+},
+{
+  "name":"com.sun.xml.internal.stream.XMLInputFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"dev.cyberjar.RaffleApplication",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"main","parameterTypes":["java.lang.String[]"] }]
+},
+{
+  "name":"dev.cyberjar.controller.DataController",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"goToStartScene","parameterTypes":[] }]
+},
+{
+  "name":"dev.cyberjar.controller.RaffleController",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"congratulate","parameterTypes":["javafx.event.ActionEvent"] }, {"name":"removeCandidateAndRepeat","parameterTypes":[] }]
+},
+{
+  "name":"dev.cyberjar.controller.StartController",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setDuration","parameterTypes":[] }, {"name":"startRaffle","parameterTypes":[] }]
+},
+{
+  "name":"dev.cyberjar.controller.ToolbarController",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"goToHomeScreen","parameterTypes":[] }, {"name":"quitApp","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Character",
+  "methods":[{"name":"isIdeographic","parameterTypes":["int"] }]
+},
+{
+  "name":"java.lang.Class",
+  "methods":[{"name":"getModule","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Module",
+  "methods":[{"name":"getResourceAsStream","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"java.lang.Runnable"
+},
+{
+  "name":"java.lang.String"
+},
+{
+  "name":"java.nio.ByteBuffer",
+  "methods":[{"name":"order","parameterTypes":["java.nio.ByteOrder"] }]
+},
+{
+  "name":"java.nio.ByteOrder",
+  "methods":[{"name":"nativeOrder","parameterTypes":[] }]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"javafx.animation.KeyValue"
+},
+{
+  "name":"javafx.fxml.FXMLLoader"
+},
+{
+  "name":"javafx.geometry.Insets",
+  "queryAllPublicMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":["double","double","double","double"] }]
+},
+{
+  "name":"javafx.geometry.Orientation",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"javafx.geometry.Pos",
+  "methods":[{"name":"valueOf","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"javafx.scene.Camera"
+},
+{
+  "name":"javafx.scene.Group"
+},
+{
+  "name":"javafx.scene.Node",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getId","parameterTypes":[] }, {"name":"setId","parameterTypes":["java.lang.String"] }, {"name":"setLayoutX","parameterTypes":["double"] }, {"name":"setLayoutY","parameterTypes":["double"] }, {"name":"setPickOnBounds","parameterTypes":["boolean"] }, {"name":"setStyle","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"javafx.scene.ParallelCamera"
+},
+{
+  "name":"javafx.scene.Parent",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"javafx.scene.Scene"
+},
+{
+  "name":"javafx.scene.control.Button",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.control.ButtonBar",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getButtons","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.control.ButtonBase",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"setOnAction","parameterTypes":["javafx.event.EventHandler"] }]
+},
+{
+  "name":"javafx.scene.control.CheckBox",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.control.ComboBox",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.control.ComboBoxBase",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"setOnAction","parameterTypes":["javafx.event.EventHandler"] }]
+},
+{
+  "name":"javafx.scene.control.Control",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"javafx.scene.control.Label",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.control.Labeled",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"setAlignment","parameterTypes":["javafx.geometry.Pos"] }, {"name":"setFont","parameterTypes":["javafx.scene.text.Font"] }, {"name":"setMnemonicParsing","parameterTypes":["boolean"] }, {"name":"setText","parameterTypes":["java.lang.String"] }]
+},
+{
+  "name":"javafx.scene.control.SplitPane",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }, {"name":"setDividerPositions","parameterTypes":["double[]"] }, {"name":"setOrientation","parameterTypes":["javafx.geometry.Orientation"] }]
+},
+{
+  "name":"javafx.scene.control.TextArea",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.control.TextInputControl",
+  "queryAllDeclaredMethods":true
+},
+{
+  "name":"javafx.scene.control.ToolBar",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getItems","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.effect.Effect"
+},
+{
+  "name":"javafx.scene.image.Image"
+},
+{
+  "name":"javafx.scene.image.ImageView",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setFitHeight","parameterTypes":["double"] }, {"name":"setFitWidth","parameterTypes":["double"] }, {"name":"setPreserveRatio","parameterTypes":["boolean"] }]
+},
+{
+  "name":"javafx.scene.layout.AnchorPane",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.Node"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.Parent"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.control.Button"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.control.ButtonBar"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.control.ButtonBase"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.control.CheckBox"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.control.Control"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.control.Label"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.control.Labeled"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.control.Skinnable"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.control.TextArea"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.control.TextInputControl"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.image.ImageView"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.layout.BorderPane"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.layout.Pane"] }, {"name":"getBottomAnchor","parameterTypes":["javafx.scene.layout.Region"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.Node"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.Parent"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.control.ButtonBar"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.control.ButtonBase"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.control.CheckBox"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.control.Control"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.control.Label"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.control.Labeled"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.control.Skinnable"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.control.TextArea"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.control.TextInputControl"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.control.ToolBar"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.image.ImageView"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.layout.AnchorPane"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.layout.BorderPane"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.layout.Pane"] }, {"name":"getLeftAnchor","parameterTypes":["javafx.scene.layout.Region"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.Node"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.Parent"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.control.Button"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.control.ButtonBar"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.control.ButtonBase"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.control.Control"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.control.Label"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.control.Labeled"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.control.Skinnable"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.control.TextArea"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.control.TextInputControl"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.image.ImageView"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.layout.AnchorPane"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.layout.BorderPane"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.layout.Pane"] }, {"name":"getRightAnchor","parameterTypes":["javafx.scene.layout.Region"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.Node"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.Parent"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.control.Control"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.control.Label"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.control.Labeled"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.control.Skinnable"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.control.TextArea"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.control.TextInputControl"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.image.ImageView"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.layout.BorderPane"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.layout.Pane"] }, {"name":"getTopAnchor","parameterTypes":["javafx.scene.layout.Region"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.Parent"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.control.Button"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.control.ButtonBar"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.control.ButtonBase"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.control.CheckBox"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.control.Control"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.control.Label"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.control.Labeled"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.control.Skinnable"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.control.TextArea"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.control.TextInputControl"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.image.ImageView"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.layout.BorderPane"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.layout.Pane"] }, {"name":"isBottomAnchor","parameterTypes":["javafx.scene.layout.Region"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.Parent"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.control.ButtonBar"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.control.ButtonBase"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.control.CheckBox"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.control.Control"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.control.Label"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.control.Labeled"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.control.Skinnable"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.control.TextArea"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.control.TextInputControl"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.control.ToolBar"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.image.ImageView"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.layout.AnchorPane"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.layout.BorderPane"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.layout.Pane"] }, {"name":"isLeftAnchor","parameterTypes":["javafx.scene.layout.Region"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.Parent"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.control.Button"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.control.ButtonBar"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.control.ButtonBase"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.control.Control"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.control.Label"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.control.Labeled"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.control.Skinnable"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.control.TextArea"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.control.TextInputControl"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.image.ImageView"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.layout.AnchorPane"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.layout.BorderPane"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.layout.Pane"] }, {"name":"isRightAnchor","parameterTypes":["javafx.scene.layout.Region"] }, {"name":"isTopAnchor","parameterTypes":["javafx.scene.Parent"] }, {"name":"isTopAnchor","parameterTypes":["javafx.scene.control.Control"] }, {"name":"isTopAnchor","parameterTypes":["javafx.scene.control.Label"] }, {"name":"isTopAnchor","parameterTypes":["javafx.scene.control.Labeled"] }, {"name":"isTopAnchor","parameterTypes":["javafx.scene.control.Skinnable"] }, {"name":"isTopAnchor","parameterTypes":["javafx.scene.control.TextArea"] }, {"name":"isTopAnchor","parameterTypes":["javafx.scene.control.TextInputControl"] }, {"name":"isTopAnchor","parameterTypes":["javafx.scene.image.ImageView"] }, {"name":"isTopAnchor","parameterTypes":["javafx.scene.layout.BorderPane"] }, {"name":"isTopAnchor","parameterTypes":["javafx.scene.layout.Pane"] }, {"name":"isTopAnchor","parameterTypes":["javafx.scene.layout.Region"] }, {"name":"setBottomAnchor","parameterTypes":["java.lang.Object","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.css.Styleable","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.event.EventTarget","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.Node","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.Node","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.Parent","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.Parent","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.Button","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.Button","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.ButtonBar","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.ButtonBar","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.ButtonBase","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.ButtonBase","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.CheckBox","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.CheckBox","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.Control","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.Control","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.Label","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.Label","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.Labeled","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.Labeled","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.Skinnable","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.Skinnable","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.TextArea","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.TextArea","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.TextInputControl","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.control.TextInputControl","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.image.ImageView","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.image.ImageView","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.layout.BorderPane","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.layout.BorderPane","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.layout.Pane","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.layout.Pane","java.lang.String"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.layout.Region","java.lang.Double"] }, {"name":"setBottomAnchor","parameterTypes":["javafx.scene.layout.Region","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["java.lang.Object","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.css.Styleable","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.event.EventTarget","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.Node","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.Node","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.Parent","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.Parent","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.ButtonBar","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.ButtonBar","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.ButtonBase","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.ButtonBase","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.CheckBox","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.CheckBox","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.Control","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.Control","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.Label","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.Label","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.Labeled","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.Labeled","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.Skinnable","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.Skinnable","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.TextArea","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.TextArea","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.TextInputControl","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.TextInputControl","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.ToolBar","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.control.ToolBar","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.image.ImageView","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.image.ImageView","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.layout.AnchorPane","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.layout.AnchorPane","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.layout.BorderPane","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.layout.BorderPane","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.layout.Pane","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.layout.Pane","java.lang.String"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.layout.Region","java.lang.Double"] }, {"name":"setLeftAnchor","parameterTypes":["javafx.scene.layout.Region","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["java.lang.Object","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.css.Styleable","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.event.EventTarget","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.Node","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.Node","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.Parent","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.Parent","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.Button","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.Button","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.ButtonBar","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.ButtonBar","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.ButtonBase","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.ButtonBase","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.Control","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.Control","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.Label","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.Label","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.Labeled","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.Labeled","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.Skinnable","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.Skinnable","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.TextArea","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.TextArea","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.TextInputControl","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.control.TextInputControl","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.image.ImageView","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.image.ImageView","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.layout.AnchorPane","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.layout.AnchorPane","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.layout.BorderPane","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.layout.BorderPane","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.layout.Pane","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.layout.Pane","java.lang.String"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.layout.Region","java.lang.Double"] }, {"name":"setRightAnchor","parameterTypes":["javafx.scene.layout.Region","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["java.lang.Object","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.css.Styleable","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.event.EventTarget","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.Node","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.Node","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.Parent","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.Parent","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.Control","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.Control","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.Label","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.Label","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.Labeled","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.Labeled","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.Skinnable","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.Skinnable","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.TextArea","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.TextArea","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.TextInputControl","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.control.TextInputControl","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.image.ImageView","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.image.ImageView","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.layout.BorderPane","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.layout.BorderPane","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.layout.Pane","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.layout.Pane","java.lang.String"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.layout.Region","java.lang.Double"] }, {"name":"setTopAnchor","parameterTypes":["javafx.scene.layout.Region","java.lang.String"] }]
+},
+{
+  "name":"javafx.scene.layout.BorderPane",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"getAlignment","parameterTypes":["javafx.scene.Node"] }, {"name":"getAlignment","parameterTypes":["javafx.scene.Parent"] }, {"name":"getAlignment","parameterTypes":["javafx.scene.control.Button"] }, {"name":"getAlignment","parameterTypes":["javafx.scene.control.ButtonBase"] }, {"name":"getAlignment","parameterTypes":["javafx.scene.control.Control"] }, {"name":"getAlignment","parameterTypes":["javafx.scene.control.Labeled"] }, {"name":"getAlignment","parameterTypes":["javafx.scene.control.Skinnable"] }, {"name":"getAlignment","parameterTypes":["javafx.scene.layout.HBox"] }, {"name":"getAlignment","parameterTypes":["javafx.scene.layout.Pane"] }, {"name":"getAlignment","parameterTypes":["javafx.scene.layout.Region"] }, {"name":"isAlignment","parameterTypes":["javafx.scene.Parent"] }, {"name":"isAlignment","parameterTypes":["javafx.scene.control.Button"] }, {"name":"isAlignment","parameterTypes":["javafx.scene.control.ButtonBase"] }, {"name":"isAlignment","parameterTypes":["javafx.scene.control.Control"] }, {"name":"isAlignment","parameterTypes":["javafx.scene.control.Labeled"] }, {"name":"isAlignment","parameterTypes":["javafx.scene.control.Skinnable"] }, {"name":"isAlignment","parameterTypes":["javafx.scene.layout.HBox"] }, {"name":"isAlignment","parameterTypes":["javafx.scene.layout.Pane"] }, {"name":"isAlignment","parameterTypes":["javafx.scene.layout.Region"] }, {"name":"setAlignment","parameterTypes":["java.lang.Object","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.css.Styleable","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.event.EventTarget","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.Node","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.Node","javafx.geometry.Pos"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.Parent","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.Parent","javafx.geometry.Pos"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.control.Button","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.control.Button","javafx.geometry.Pos"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.control.ButtonBase","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.control.ButtonBase","javafx.geometry.Pos"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.control.Control","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.control.Control","javafx.geometry.Pos"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.control.Labeled","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.control.Labeled","javafx.geometry.Pos"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.control.Skinnable","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.control.Skinnable","javafx.geometry.Pos"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.layout.HBox","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.layout.HBox","javafx.geometry.Pos"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.layout.Pane","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.layout.Pane","javafx.geometry.Pos"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.layout.Region","java.lang.String"] }, {"name":"setAlignment","parameterTypes":["javafx.scene.layout.Region","javafx.geometry.Pos"] }, {"name":"setCenter","parameterTypes":["javafx.scene.Node"] }, {"name":"setTop","parameterTypes":["javafx.scene.Node"] }]
+},
+{
+  "name":"javafx.scene.layout.HBox",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"setMargin","parameterTypes":["javafx.scene.Node","javafx.geometry.Insets"] }, {"name":"setMargin","parameterTypes":["javafx.scene.Parent","javafx.geometry.Insets"] }, {"name":"setMargin","parameterTypes":["javafx.scene.control.ComboBox","javafx.geometry.Insets"] }, {"name":"setMargin","parameterTypes":["javafx.scene.control.ComboBoxBase","javafx.geometry.Insets"] }, {"name":"setMargin","parameterTypes":["javafx.scene.control.Control","javafx.geometry.Insets"] }, {"name":"setMargin","parameterTypes":["javafx.scene.control.Label","javafx.geometry.Insets"] }, {"name":"setMargin","parameterTypes":["javafx.scene.control.Labeled","javafx.geometry.Insets"] }, {"name":"setMargin","parameterTypes":["javafx.scene.control.Skinnable","javafx.geometry.Insets"] }, {"name":"setMargin","parameterTypes":["javafx.scene.layout.Region","javafx.geometry.Insets"] }]
+},
+{
+  "name":"javafx.scene.layout.Pane",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"getChildren","parameterTypes":[] }]
+},
+{
+  "name":"javafx.scene.layout.Region",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"setMaxHeight","parameterTypes":["double"] }, {"name":"setMaxWidth","parameterTypes":["double"] }, {"name":"setMinHeight","parameterTypes":["double"] }, {"name":"setMinWidth","parameterTypes":["double"] }, {"name":"setPadding","parameterTypes":["javafx.geometry.Insets"] }, {"name":"setPrefHeight","parameterTypes":["double"] }, {"name":"setPrefWidth","parameterTypes":["double"] }]
+},
+{
+  "name":"javafx.scene.shape.LineTo"
+},
+{
+  "name":"javafx.scene.shape.MoveTo"
+},
+{
+  "name":"javafx.scene.shape.Path"
+},
+{
+  "name":"javafx.scene.shape.PathElement"
+},
+{
+  "name":"javafx.scene.shape.Rectangle"
+},
+{
+  "name":"javafx.scene.shape.SVGPath"
+},
+{
+  "name":"javafx.scene.shape.Shape"
+},
+{
+  "name":"javafx.scene.text.Font"
+},
+{
+  "name":"javafx.scene.text.Text"
+},
+{
+  "name":"javafx.scene.transform.Transform"
+},
+{
+  "name":"javafx.scene.web.WebView"
+},
+{
+  "name":"javafx.stage.PopupWindow"
+},
+{
+  "name":"javafx.stage.Stage"
+},
+{
+  "name":"javafx.stage.Window"
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}]
+},
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

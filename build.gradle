@@ -1,0 +1,52 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.graalvm.buildtools.native' version '0.11.0'
+}
+
+group = 'dev.cyberjar'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+java {
+    toolchain { languageVersion = JavaLanguageVersion.of(21) }
+}
+
+application {
+    mainClass = 'dev.cyberjar.RaffleApplication'
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'dev.cyberjar.RaffleApplication'
+        )
+    }
+}
+
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+graalvmNative {
+    binaries {
+        named("main") {
+            imageName = 'raffle'
+            mainClass = 'dev.cyberjar.RaffleApplication'
+            buildArgs.add('-H:ConfigurationFileDirectories=${project.projectDir}/agent-data')
+            buildArgs.add('-H:+UnlockExperimentalVMOptions')
+            buildArgs.addAll([
+                    "-H:IncludeResources=fxml/.*\\.fxml",
+                    "-H:IncludeResources=css/.*\\.css",
+                    "-H:IncludeResources=images/.*\\.(png|jpg|jpeg|gif)",
+                    "-H:IncludeResources=.*\\.properties"
+            ])
+            resources.autodetect()
+        }
+    }
+}

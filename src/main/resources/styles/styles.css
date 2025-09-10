@@ -1,0 +1,105 @@
+.root {
+    -fx-font-family: Verdana;
+    -fx-background-color: #1E1E1E;
+}
+
+#homePane *.split-pane-divider {
+    -fx-padding: 0 0 0 0;
+    -fx-background-color: transparent;
+}
+
+#startPane *.split-pane-divider {
+    -fx-padding: 0 0 0 0;
+    -fx-background-color: transparent;
+}
+
+#randomizerPane *.split-pane-divider {
+    -fx-padding: 0 0 0 0;
+    -fx-background-color: transparent;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-wrap-text: true;
+}
+
+#checkBox {
+    -fx-text-fill: white;
+}
+
+#toolPane {
+       -fx-background-color: #1E1E1E;
+}
+
+#continueButton {
+        -fx-background-color: #5BD5EF;
+        -fx-text-fill: white;
+}
+
+#continueButton:hover {
+        -fx-background-color: #2FBEDD;
+}
+
+#startButton {
+        -fx-background-color: #5BD5EF;
+        -fx-text-fill: white;
+}
+
+#startButton:hover {
+        -fx-background-color: #2FBEDD;
+}
+
+#durationLabel {
+    -fx-font-size: 24px;
+}
+
+#repeatButton {
+        -fx-background-color: #C961B3;
+        -fx-text-fill: white;
+}
+
+#repeatButton:hover {
+        -fx-background-color: #994187;
+}
+
+#presentButton {
+        -fx-background-color: #85D888;
+        -fx-text-fill: white;
+}
+
+#presentButton:hover {
+        -fx-background-color: #56A458;
+}
+
+
+#exitButton {
+    -fx-background-image: url("../graphics/exit.png");
+    -fx-background-size: 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: #1E1E1E;
+}
+
+#homeButton {
+    -fx-background-image: url("../graphics/home.png");
+    -fx-background-size: 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: #1E1E1E;
+}
+
+#fullScreenButton:max {
+    -fx-background-image: url("../graphics/maximize.png");
+    -fx-background-size: 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: #1E1E1E;
+}
+
+#fullScreenButton:min {
+    -fx-background-image: url("../graphics/minimize.png");
+    -fx-background-size: 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center;
+    -fx-background-color: #1E1E1E;
+}
